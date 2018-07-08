@@ -47,16 +47,15 @@ class LandingPage extends React.Component {
               <GridItem xs={12} sm={12} md={6}>
                 <h1 className={classes.title}>Bank on your community</h1>
                 <h4>
-                  Every landing page needs a small description after the big
-                  bold title, that's why we added this text here. Add here all
-                  the information that can make you or your product create the
-                  first impression.
+                  BENKI reduces the barriers to community re-investment. 
+                  Search for Black banks across the U.S. and make deposits 
+                  in any bank from anywhere.
                 </h4>
                 <br />
                 <Button
                   color="danger"
                   size="lg"
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  href="https://www.youtube.com/watch?v=LtQ2MNv0Sqc"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
