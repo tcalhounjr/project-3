@@ -6,6 +6,9 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import Chat from "@material-ui/icons/Chat";
 import VerifiedUser from "@material-ui/icons/VerifiedUser";
 import Fingerprint from "@material-ui/icons/Fingerprint";
+import Payment from "@material-ui/icons/Payment";
+
+
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
@@ -31,16 +34,16 @@ class ProductSection extends React.Component {
           <GridContainer>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Free Chat"
+                title="IDENTIFY"
                 description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
                 icon={Fingerprint}
-                iconColor="info"
+                iconColor="rose"
                 vertical
               />
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Verified Users"
+                title="INFORM"
                 description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
                 icon={Chat}
                 iconColor="warning"
@@ -49,9 +52,9 @@ class ProductSection extends React.Component {
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <InfoArea
-                title="Fingerprint"
+                title="INVEST"
                 description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
-                icon={VerifiedUser}
+                icon={Payment}
                 iconColor="success"
                 vertical
               />
