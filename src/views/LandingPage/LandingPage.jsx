@@ -47,13 +47,13 @@ class LandingPage extends React.Component {
               <GridItem xs={12} sm={12} md={6}>
                 <h1 className={classes.title}>Bank on your community</h1>
                 <h4>
-                  BENKI reduces the barriers to community re-investment. 
-                  Search for Black banks across the U.S. and make deposits 
-                  in any bank from anywhere.
+                  We believe in the power of economic independence. Our vision is to bridge the gap
+                  between Black banking institutions and and their most important customers - the African-
+                  American consumer.
                 </h4>
                 <br />
                 <Button
-                  color="danger"
+                  color="warning"
                   size="lg"
                   href="https://www.youtube.com/watch?v=LtQ2MNv0Sqc"
                   target="_blank"
